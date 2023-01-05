@@ -1,0 +1,16 @@
+void setup ( )
+{
+
+pinMode (13, OUTPUT); //pin 13 is set as output pin
+
+}
+
+void loop( ) // The loop function runs again and again
+{
+
+digitalWrite (13,HIGH); // Turn ON the LED on pin 13
+delay (1000); //Wait for 1sec
+digitalWrite (13, LOW); //Turn OFF the LED on pin 13
+
+
+}
